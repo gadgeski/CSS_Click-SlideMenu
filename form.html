@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>-Contact Us-</title>
+    <link rel="stylesheet" href="./style3.css" />
+  </head>
+
+  <body>
+    <!-- SimpleFormDesign -->
+    <div class="form02 mb-5">
+      <form>
+        <div class="form-inner">
+          <div class="form-label">
+            <label for="form02-name">お名前</label>
+            <span class="required">(必須)</span>
+          </div>
+          <div class="form-input">
+            <input
+              type="text"
+              id="form02-name"
+              name="name"
+              autocomplete="name"
+              requiredplaceholder="開発 志太郎"
+            />
+          </div>
+        </div>
+        <div class="form-inner">
+          <div class="form-label">
+            <label for="form02-email">メールアドレス</label>
+            <span class="required">(必須)</span>
+          </div>
+          <div class="form-input">
+            <input
+              type="email"
+              id="form02-email"
+              name="email"
+              autocomplete="email"
+              requiredplace="○○○@▲▲▲.com"
+            />
+          </div>
+        </div>
+        <div class="form-inner">
+          <div class="form-label">
+            <label for="form02-details">お問合せ内容</label>
+          </div>
+          <div class="form-input">
+            <textarea
+              id="form02-details"
+              name="details"
+              placeholder="その他、ご要望など"
+            >
+            </textarea>
+          </div>
+        </div>
+        <button type="submit" class="form-btn">送信</button>
+      </form>
+    </div>
+  </body>
+</html>
