@@ -1,4 +1,42 @@
 @charset "UTF-8";
+/*==============================
+
+BaseStyle
+
+==============================*/
+/* スムーズなスクロール */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 1rem;
+}
+
+main {
+  max-width: 600px;
+  margin: auto;
+}
+
+h1 {
+  margin-top: 8rem;
+}
+
+h2 {
+  scroll-margin-top: 4rem;
+  margin-top: 4rem;
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+/*==============================
+
+Menu
+
+==============================*/
 /* 開閉ボタン */
 .btn-menu {
   position: fixed;
@@ -17,11 +55,7 @@
 #menu-close {
   z-index: 3;
 }
-/*==============================
 
-Menu
-
-==============================*/
 /* メニューパネル */
 .menu-container {
   position: fixed;
@@ -46,4 +80,17 @@ Menu
 .menu a {
   color: #0bd;
   display: block;
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: color 0.4s;
+}
+
+.menu a:hover {
+  color: #05b;
+}
+
+/* メニューを表示 */
+.panel-open {
+  translate: 0;
 }
