@@ -4,7 +4,7 @@ const menuPanel = document.querySelector(".menu-container");
 
 // メニューボタンクリック時
 btnOpen.addEventListener("click", () => {
-  menuPanel.classList.add("pannel-open");
+  menuPanel.classList.add("panel-open");
 });
 
 // 閉じるボタンクリック時
