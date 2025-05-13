@@ -44,7 +44,7 @@ Menu
   top: 1rem;
   z-index: 1;
   padding: 1rem;
-  background: #0bd;
+  background: #b0c4de;
   width: 100px;
   cursor: pointer;
   border: 0;
@@ -78,7 +78,7 @@ Menu
 }
 
 .menu a {
-  color: #0bd;
+  color: #b0c4de;
   display: block;
   padding: 1rem;
   font-size: 1.5rem;
@@ -87,7 +87,7 @@ Menu
 }
 
 .menu a:hover {
-  color: #05b;
+  color: #778899;
 }
 
 /* メニューを表示 */
