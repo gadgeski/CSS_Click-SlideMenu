@@ -9,10 +9,6 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  padding: 1rem;
-}
-
 main {
   max-width: 600px;
   margin: auto;
@@ -23,9 +19,10 @@ h1 {
 }
 
 h2 {
-  scroll-margin-top: 4rem;
-  margin-top: 4rem;
+  scroll-margin-top: 3rem;
+  margin-top: 3rem;
   font-size: 2rem;
+  padding: 20px;
 }
 
 p {
