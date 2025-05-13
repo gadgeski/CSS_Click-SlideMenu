@@ -1,5 +1,5 @@
 /* カーソルの位置で変色 */
-const btn = document.querySelector("#flow-button.js");
+const btn = document.querySelector("#flow-button-js");
 btn.addEventListener("mousemove", (e) => {
   const rect = btn.getBoundingClientRect();
   const x = ((e.clientX - rect.left) / rect.width) * 100;
